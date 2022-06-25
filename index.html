@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS EXAM</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body >
+        
+        <!-- Loading screen -->
+        <div class="loadingScreen ">
+            <div class="spinner">
+                <div class="sk-folding-cube">
+                    <div class="sk-cube1 sk-cube"></div>
+                    <div class="sk-cube2 sk-cube"></div>
+                    <div class="sk-cube4 sk-cube"></div>
+                    <div class="sk-cube3 sk-cube"></div>
+                </div>
+            </div>
+        </div>
+        <!-- sidenav -->
+        <section>
+            <div class="icon">
+                <div class="py-4">
+                    <img src="logo/logo.png" alt="logo" height="48px">
+                </div>
+                <div class="btnClose translate-middle ">
+                    <i class="fa fa-align-justify"></i>
+                </div>
+                <div class="iconSocial translate-middle">
+                    
+                    <div><i class="fas fa-globe"></i></div>
+                    <div><i class="fas fa-share-alt"></i></div>
+                </div>
+            </div>
+            <div class="menu ">
+                <div>
+                    <ul>
+                        <li><a id="Nowplaying" href="#">Now playing</a></li>
+                        <li><a id="Popular" href="#">Popular</a></li>
+                        <li><a id="TopRated" href="#" >Top Rated</a></li>
+                        <li><a id="Trending" href="#">Trending</a></li>
+                        <li><a id="Upcoming" href="#">Upcoming</a></li>
+                        <li><a href="#Contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-globe"></i></a>
+                    <div class="my-3">
+                        <p>Copyright Â© 2019 All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" w-75 m-auto ps-5 pt-5">
+            <!-- search -->
+            <section  class=" mb-5" >
+                <div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input id="searchMoves" class="form-control text-white  search " type="text" placeholder="get movies by word...">
+                        </div>
+                        <div class="col-md-6">
+                            <input id="displaysearch" class="form-control text-white search " type="text" placeholder="search...">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- display posts -->
+            <section class=" text-center">
+                <div class="disPosts row">
+                </div>
+            </section>
+
+            <!-- Contac Us -->
+            <section class=" my-5" id="Contact">
+                <div><h2 class="my-5">ContacUs...</h2></div>
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <div>
+                            <input id="inName" class="form-control text-white  search" type="text" placeholder="Enter Your Name">
+                            <div class="areName bg-danger">Your Name is not valid</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div>
+                            <input id="inEmail" class="form-control text-white search" type="text" placeholder="Enter Email">
+                            <div class="areEmail bg-danger">Enter valid email</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div>
+                            <input id="inPhone" class="form-control text-white search" type="text" placeholder="Enter Phone">
+                            <div class="arePhone bg-danger">Enter valid phone</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div>
+                            <input id="inAge" class="form-control text-white search" type="text" placeholder="Enter Age">
+                            <div class="areAge bg-danger">Enter valid Age</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div>
+                            <input id="inPass" class="form-control text-white search" type="password" placeholder="Enter Password">
+                            <div class="arePass bg-danger">Enter valid password *Minimum eight characters, at least one letter and one number:*</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div>
+                            <input id="inRepass" class="form-control text-white search" type="password" placeholder="Enter Repassword">
+                            <div class="areRepass bg-danger">Enter valid Repassword</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <button id="btnSubmit" type="submit" class="btn btn-outline-danger">Submit</button>
+                </div>
+            </section>
+        </section>
+
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>
